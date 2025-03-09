@@ -1,0 +1,54 @@
+body{
+   padding: 0;
+   margin: 0;
+   background-color: #0b1c30;
+   background: url('planodefundo.jpg') no-repeat center center fixed;
+   background-size: cover;
+   backdrop-filter: blur(3px);
+   -webkit-backdrop-filter: blur(3px);
+}
+#div-pai{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div-filho{
+    width: 350px;
+    height:600px;
+    background-color: #ffff; /*rgb(16, 71, 71)*/
+    border-radius: 30px;
+    text-align: center;
+    color: #0b1c30;
+    filter:drop-shadow(10px 0 30px #ffffff9e);
+    animation: 
+       kangchul 1.5s infinite ease-in-out;
+}
+@keyframes kangchul {
+    50% {
+        transform: translateY(-3%)
+    }
+    
+}
+.josefin-sans{
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+}
+#img-principal{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+#img-principal:hover{ 
+    transform: scale(1.05);
+    transform: .8s;
+}
+.parag-kang{
+    text-align: justify;
+    margin: 20px;
+    font-family:'Segoe UI';
+    line-height: 18px;
+}

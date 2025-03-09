@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Fascinate+Inline&family=Josefin+Sans:wght@400');
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #efdf9e;
+  cursor: url("cafe-cursor.png"), auto;
+}
+h1{ /*quase todos os titulos da página*/
+  font-size: 450%;
+  margin-left: 200px;
+  margin-top: 100px;
+  font-family: "Josefin Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 345;
+  font-style: normal;
+}
+#foto-apresentacao { /*foto principal*/
+  height: 500px;
+  width: 500px;
+  display: block;
+  margin-left: 200px;
+  margin-top: 100px;
+  border-radius: 10%;
+}
+#titulo-apresentacao { /*titulo principal*/
+  font-size: 16vh;
+  margin-left: 800px;
+  position: relative;
+  top: -450px; 
+  margin-bottom: -30px;
+  font-family: "Josefin Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 345;
+  font-style: normal;
+}
+#legenda-apresentacao { /*subtitulo*/
+  font-size: 3vh;
+  font-display: block;
+  margin-left: 800px;
+  position: relative;
+  top: -450px;
+  margin-top: 40px;
+  font-family: "Josefin Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+#centralizar-gif-article{ /*div para centralizar*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+#article-apresentacaotexto { /*estilização dos paragrafos*/
+  width: 50%;
+  font-size: 3vh;
+  margin-top: 40px;
+  font-family: "Actor", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#img-comomedescobri { /*estilização da img*/
+  height: 270px;
+  width: 500px;
+}
+#titulo-formacao{ /*estilização do titulo formação*/
+  font-size: 10vh;
+  margin-left: 200px;
+  font-family: "Josefin Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 345;
+  font-style: normal;
+}
+#centralizar-ul-img{ /*div para centralizar conteúdo em formação e experiência*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+#lista-formacaoexperiencia { /*lista de cursos*/
+  font-size: 3vh;
+  font-family: "Actor", serif;
+  font-style: normal;
+  width: 50%;
+}
+#img-formacao { /*estilização do gif da seção formação*/
+  height: 270px;
+  width: 500px;
+  
+}
+#titulo-experiencia { /*estilização do titulo experiência*/
+  font-size: 10vh;
+  margin-left: 200px;
+  font-family: "Josefin Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 345;
+  font-style: normal;
+}
+#div-icones-experiencia { /*div que organiza os icones*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 50px;
+}
+.icones-experiencia { /*estilização dos icones*/
+  width: 10%; 
+  height: 10%;
+  border-radius: 20%;
+}
+.img-proj { /*class onde estão iframes dos projetos*/
+  margin-top: 70px;
+  width: 1320px;
+  height: 700px;
+}
+.leg-img-proj { /*figure dos iframes*/
+  font-size: 3vh;
+  font-family: "Actor", serif;
+  font-style: normal;
+  margin-bottom: 100px;
+  color: rgb(54, 51, 51);
+}
+#div-projetos { /*div que organiza os iframes*/
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+#frase-section {
+  position: relative;
+}
+.fundo-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+#fundo-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: 70%;
+}
+.frase-centralizada {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 5vh;
+  font-family: "Josefin Sans", serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  line-height: 1cm;
+}
+#div-outras-competencias{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  flex-wrap: wrap;        
+  gap: 20px;              
+}
+.paragrafo-outras-competencias{
+  width: 75%;
+  font-size: 3vh;
+  margin-left: 200px;
+  margin-top: 40px;
+  font-family: "Actor", serif;
+  font-weight: 400;
+  font-style:normal;
+}
+.links{
+  width: 42%;
+  font-size: 3vh;
+  margin-left: 180px;
+  font-family: "Actor", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(49, 49, 49);
+  align-items: center;
+  padding-top: 100px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  background-color: #a79963;
+  height: 200px;
+  margin-top: 50px;
+  
+}
+/* 
+como hospedar um site gratuitamente 
+comentar para deixar mais organizado
+deixar mais responsivo
+colocar mais cursos depois
+colocar mais dois projetos
+colocar mais uma tecnologia em experiencia
+*/
