@@ -1,0 +1,349 @@
+ @import url('https://fonts.googleapis.com/css2?family=Actor&family=Fascinate+Inline&family=Josefin+Sans:wght@400');
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #efdf9e;
+  /* cursor: url("cafe-cursor.png"), auto; */
+}
+h1{
+  font-size: 4vw;
+  font-family: "Josefin Sans", serif;
+  font-weight: 345;
+  margin-left: 50px;
+}
+#img-principal-port { 
+  height: 500px;
+  width: 500px;
+  border-radius: 10%;
+  margin: 50px 50px 140px 50px;
+}
+#alinhar-img-titulos{
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+#titulo-section-apresen{
+  font-family: "Josefin Sans", serif;
+  font-weight: 345;
+  font-size: 4vw;
+}
+#subtitulo-section-apresen{
+  font-family: "Josefin Sans", serif;
+  margin-left: 50px;
+}
+#alinhar-gif-article{
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+p{
+  width: 85%;
+  font-family: "Actor", serif;
+  font-size: 20px;
+  margin-left: 60px;
+}
+ul{
+  font-family: "Actor", serif;
+  font-size: 20px;
+}
+#alinhar-li-gif{
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  gap: 70px;
+}
+.icones-experiencia{
+  width: 150px;
+  height: 150px;
+}
+#alinhar-icones{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.container-slider {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.container-images {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+}
+.slider{
+  opacity: 0;
+  transition: opacity .2s;
+  position: absolute;
+  width: 100%;
+  border-radius: 10px;
+}
+.on{
+  opacity: 1;
+}
+#prev-button, #next-button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+#prev-button img, #next-button img{
+  width: 100%;
+  height: 100%;
+}
+#prev-button{
+  transform: rotate(180deg);
+}
+#frase-section{
+  height: 100vh;
+  background-image: url('/imgs-style/fundo-img-pexels.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#frase-section p{
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Josefin Sans", serif;
+  background: inherit;
+}
+#centraliza-edits{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+#titulo-outras-competencias{
+  font-size: 4vw;
+  font-family: "Josefin Sans", serif;
+  font-weight: 345;
+  margin-left: 50px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.p-edicao-video{
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+/*
+#container-center-apresentacao{
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px; 
+  align-items: center; 
+  justify-content: center;
+}
+#div-alinha-texto-para-baixo{
+  flex-direction: column;
+  line-height: 1.5;
+}
+h1{ 
+  font-size: 4vw;
+  font-family: "Josefin Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 345;
+  font-style: normal;
+  margin-left: 50px;
+}
+#img-principal-port { 
+  height: 500px;
+  width: 500px;
+  border-radius: 10%;
+  margin: 50px 50px 140px 50px;
+}
+#titulo-apresentacao { 
+  font-family: "Josefin Sans", serif;
+  font-style: normal;
+  font-size: 4rem;
+}
+#legenda-apresentacao {
+  font-family: "Josefin Sans", serif;
+  font-style: normal;
+  font-size: 1,5rem;
+  margin-left: 50px;
+}
+#div-center-como-me-descobri{
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  gap: 40px;
+  flex-wrap: wrap;
+  }
+#article-apresentacaotexto { 
+  font-size: 3vh;
+  width: 40%;
+  font-family: "Actor", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+#img-comomedescobri { 
+  max-width: 100%;
+}
+#titulo-formacao{ 
+  font-size: 4vw;
+  margin-left: 40px;
+  font-family: "Josefin Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 345;
+  font-style: normal;
+}
+#centralizar-ul-img{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  flex-wrap: wrap;
+}
+#lista-formacaoexperiencia {
+  font-size: 3vh;
+  font-family: "Actor", serif;
+  font-style: normal;
+  width: 50%;
+}
+#img-formacao { 
+  max-width: 100%;
+  
+}
+#titulo-experiencia { 
+  font-size: 4vh;
+  margin-left: 40px;
+  font-family: "Josefin Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 345;
+  font-style: normal;
+}
+#div-icones-experiencia { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 50px;
+  flex-wrap: wrap;
+}
+.icones-experiencia { 
+  width: 10%; 
+  height: 10%;
+  border-radius: 20%;
+}
+.img-proj {
+  margin-top: 70px;
+  width: 1320px;
+  height: 700px;
+}
+.leg-img-proj { 
+  font-size: 3vh;
+  font-family: "Actor", serif;
+  font-style: normal;
+  margin-bottom: 100px;
+  color: rgb(54, 51, 51);
+}
+#div-projetos { 
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+#frase-section {
+  position: relative;
+}
+.fundo-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+#fundo-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: 70%;
+}
+.frase-centralizada {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 5vh;
+  font-family: "Josefin Sans", serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  line-height: 1cm;
+  flex-wrap: wrap;
+}
+#div-outras-competencias{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  flex-wrap: wrap;        
+  gap: 20px;              
+}
+.paragrafo-outras-competencias{
+  width: 75%;
+  font-size: 3vh;
+  margin-left: 200px;
+  margin-top: 40px;
+  font-family: "Actor", serif;
+  font-weight: 400;
+  font-style:normal;
+}
+*/
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a79963;
+  height: 150px;
+  gap: 50px;
+  
+}
+ .links{
+  font-family: "Josefin Sans", serif;
+  font-size: 20px;
+  font-style: normal;
+  color: rgb(49, 49, 49);
+  background:inherit;
+}
+/*
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+  }
+  .frase-centralizada{
+    display: none;
+  }
+  #fundo-img{
+    display: none;
+  }
+  #frase-section{
+    display: none;
+  }
+  .fundo-container{
+    display: none;
+  }
+} */
+/* 
+comentar para deixar mais organizado
+ajeitar a seção com frase
+corrigir algumas margens
+colocar media para telas menores
+colocar mais cursos depois
+colocar mais dois projetos (liks das páginas publicadas no github)
+colocar mais uma tecnologia em experiencia
+tentar fazer um carrossel em edits
+*/
